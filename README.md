@@ -61,7 +61,7 @@ to setup our web interface first.
 
 Make sure your interface supports
 [Monitor Mode](https://en.wikipedia.org/wiki/Monitor_mode).
-This mode enable us to read packets on the connection without concurring to
+This mode enables us to read packets on the connection without concurring to
 the comunication. The "normal" mode is the Managed Mode.
 
 If you don't know which interface to use,

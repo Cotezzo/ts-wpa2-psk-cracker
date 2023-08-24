@@ -1,0 +1,21 @@
+{
+  "name": "script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "test": "ts-node-dev --respawn --transpile-only --poll",
+    "build": "tsc --removeComments ./src/index.ts --outDir ./dist"
+  },
+  "author": "Cotezzo",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.17.5",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1"
+  }
+}
